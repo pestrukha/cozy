@@ -1,5 +1,5 @@
 .start { 
-    background-image: url("/pages/main/src/img/start/start-screen-gradient-background.svg"); 
+    background-image: url("/pages/main/src/img/start/start-screen-background.png"); 
 }
 
 .start__wrapper {
@@ -9,4 +9,16 @@
     @include media-mobile {
         flex-direction: column-reverse;
     }
+}
+
+.start__title {
+    color: $color-light; 
+}
+
+.start__text {
+    color: $color-light; 
+}
+
+.start__button {
+    padding: 20px 0 0 0;
 }

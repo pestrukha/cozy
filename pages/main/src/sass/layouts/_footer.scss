@@ -1,16 +1,11 @@
 .footer {
-    padding: 60px 0 70px;
+    background-image: url("/pages/main/src/img/start/start-screen-background.png"); 
+    padding: 60px 0 0;
     @include media-mobile {
         padding: 31px 0;
     }
 }
-
-.footer__wrapper {
-    display: flex;
-    @include media-tablet {
-        flex-direction: column;
-    }
-}
+ 
 
 .footer-navigation {
     flex-grow: 1;
@@ -26,6 +21,7 @@
 
 .footer-navigation__title {
     margin: 0 0 15px;
+    color: $color-light;
 }
 
 .footer-navigation__links {

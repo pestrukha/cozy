@@ -1,4 +1,8 @@
-.about__wrapper {
+.donation {
+    background-color: $color-background;
+}
+
+.donation__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,12 +10,4 @@
     @include media-mobile {
         flex-direction: column-reverse;
     }
-}
-
-.about__image {
-    margin: 0 125px 0 125px;
-}
-
-.about__content {
-    margin: 0 0 0 50px;
 }

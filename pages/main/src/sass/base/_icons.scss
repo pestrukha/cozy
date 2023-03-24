@@ -1,51 +1,60 @@
 .icon {
     cursor: pointer;
     display: inline-block;
+} 
+
+.icon_food {
+    background-image: url("/pages/main/src/img/icons/icon-pet-food.svg");
+    width: 60px;
+    height: 60px;
 }
 
-.icon-square {
-    width: 50px;
-    height: 50px;
-    border-radius: 19px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    &_yellow {
-        background-color: $color-yellow;
-    }
-    &_red {
-        background-color: $color-red;
-    }
-    &_blue {
-        background-color: $color-blue;
-    }
-    &_violet {
-        background-color: $color-violet;
-    }
+.icon_transportation {
+    background-image: url("/pages/main/src/img/icons/icon-transportation.svg");
+    width: 60px;
+    height: 60px;
 }
 
-.icon_play {
-    background-image: url("../img/icons/play.svg");
-    width: 18px;
-    height: 19px;
+.icon_toys {
+    background-image: url("/pages/main/src/img/icons/icon-toys.svg");
+    width: 60px;
+    height: 60px;
 }
 
-.icon_arrow {
-    background-image: url("../img/icons/arrow.svg");
-    width: 12px;
-    height: 17px;
+.icon_bowls {
+    background-image: url("/pages/main/src/img/icons/icon-bowls-and-cups.svg");
+    width: 60px;
+    height: 60px;
 }
 
-.icon_snake {
-    background-image: url("../img/icons/snake.svg");
-    width: 18px;
-    height: 14px;
+.icon_shampoos {
+    background-image: url("/pages/main/src/img/icons/icon-shampoos.svg");
+    width: 60px;
+    height: 60px;
 }
 
-.icon_heart {
-    background-image: url("../img/icons/heart.svg");
-    width: 17px;
-    height: 15px;
+.icon_vitamins {
+    background-image: url("/pages/main/src/img/icons/icon-vitamins.svg");
+    width: 60px;
+    height: 60px;
+}
+
+.icon_medicines {
+    background-image: url("/pages/main/src/img/icons/icon-medicines.svg");
+    width: 60px;
+    height: 60px;
+}
+
+.icon_collars {
+    background-image: url("/pages/main/src/img/icons/icon-collars-leashes.svg");
+    width: 60px;
+    height: 60px;
+}
+
+.icon_sleeping {
+    background-image: url("/pages/main/src/img/icons/icon-sleeping-area.svg");
+    width: 60px;
+    height: 60px;
 }
 
 .icon_clock {

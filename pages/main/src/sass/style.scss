@@ -6,6 +6,7 @@
 @import "abstract/placeholders";
 
 // Base
+@import "base/fonts";
 @import "base/base";
 @import "base/buttons";
 @import "base/icons";
@@ -23,9 +24,9 @@
 
 
 // Components
-@import "components/contact-us";
-@import "components/promo";
+@import "components/donation";
+@import "components/pets";
 @import "components/navigation";
 @import "components/start";
-@import "components/strategies";
+@import "components/help";
 @import "components/about";
