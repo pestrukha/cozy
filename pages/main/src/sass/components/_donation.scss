@@ -1,0 +1,13 @@
+.donation {
+    background-color: $color-background;
+}
+
+.donation__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    @include media-mobile {
+        flex-direction: column-reverse;
+    }
+}
